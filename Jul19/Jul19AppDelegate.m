@@ -29,7 +29,7 @@
                                          initWithTitle:@"Notes"
                                          image: [UIImage imageNamed: @"163-glasses-1.png"]
                                          badge: nil
-                                         v: [[NoteView alloc] initWithFrame: f
+                                         view: [[NoteView alloc] initWithFrame: f
                                          ]],
                                         
                                         
@@ -37,7 +37,7 @@
                                          initWithTitle:@"Monitor"
                                          image: [UIImage imageNamed: @"77-ekg.png"]
                                          badge: nil
-                                         v: [[View alloc] initWithFrame: f
+                                         view: [[View alloc] initWithFrame: f
                                          ]],
                                         nil];
     
