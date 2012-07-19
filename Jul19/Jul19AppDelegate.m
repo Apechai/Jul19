@@ -26,19 +26,19 @@
 	// UITabBarController *tabBarController = [[UITabBarController alloc] init];
     a = [NSArray arrayWithObjects:
                                         [[ViewController alloc]
-                                        initWithTitle:@"Build superpower"
+                                         initWithTitle:@"Notes"
                                          image: [UIImage imageNamed: @"163-glasses-1.png"]
                                          badge: nil
-                                         view: [[NoteView alloc] initWithFrame: f]
-                                         ],
+                                         v: [[NoteView alloc] initWithFrame: f
+                                         ]],
                                         
                                         
                                         [[ViewController alloc]
                                          initWithTitle:@"Monitor"
                                          image: [UIImage imageNamed: @"77-ekg.png"]
                                          badge: nil
-                                         view: [[View alloc] initWithFrame: f]
-                                         ],
+                                         v: [[View alloc] initWithFrame: f
+                                         ]],
                                         nil];
     
 //	tabBarController.selectedIndex = 0;	//0 (the leftmost one) is the default
